@@ -9,15 +9,8 @@ from datetime import datetime
 import time
 import pandas as pd
 import numpy as np
-import gspread
-from google.oauth2.service_account import Credentials
-from selenium import webdriver
-from selenium.webdriver.chrome.service import Service
-from selenium.webdriver.common.by import By
-import undetected_chromedriver as uc
 import streamlit as st
-import plotly.express as px
-pd.options.display.max_columns = None
+# pd.options.display.max_columns = None
 
 # https://streamlit.io/gallery
 # Find emojis here: https://www.webfx.com/tools/emoji-cheat-sheet/
